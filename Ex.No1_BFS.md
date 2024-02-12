@@ -41,8 +41,8 @@ bfs(visited, graph, '5')
 
 ### Output:
 
+![image](https://github.com/kannan0071/AI_Lab_2023-24/assets/119641638/d8fba798-02c6-4aff-ad51-13c9959d52a8)
 
-![image](https://github.com/kannan0071/AI_Lab_2023-24/assets/119641638/45f3132d-9e62-419f-b50b-478789144560)
 
 
 ### Result:
