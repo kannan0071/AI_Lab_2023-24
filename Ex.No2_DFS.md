@@ -11,7 +11,9 @@ To write a python program to implement Depth first Search.
 5. For each neighbor node, recursively invoke the dfs search.
 6. Call the dfs function by passing arguments visited, graph and starting node.
 7. Stop the program.
+
 ### Program:
+
 graph = {
   '5' : ['3','7'],
   '3' : ['2', '4'],
@@ -27,7 +29,7 @@ def dfs(visited, graph, node):  #function for dfs
     	visited.add(node)
     	for neighbour in graph[node]:
         	dfs(visited, graph, neighbour)
-# Driver Code
+#Driver Code
 print("Following is the Depth-First Search")
 dfs(visited,graph,'5')
 
