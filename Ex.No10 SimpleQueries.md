@@ -21,7 +21,7 @@ Construct the FOL representation for the following sentences <br>
 5.	 Bill eats peanuts  <br> 
    Convert into clause form and Prove that John like Apple by using Prolog. <br> 
 ### Program:
-```py
+```
 likes(john,X):-
 	food(X).
 eats(bill,X):-
@@ -45,7 +45,7 @@ Consider the following facts and represent them in predicate form: <br>
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
 ### Program:
-```py
+```
 likes(steve,X):-
      easycourse(X).
 hard(sciencecourse).
@@ -60,7 +60,7 @@ Consider the statement <br>
 “This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
 Convert to Clause form and prove west is criminal by using Prolog.<br> 
 ### Program:
-```py
+```
 criminal(X):-
 	american(X),
 	weapon(Y),
