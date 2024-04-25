@@ -2,9 +2,22 @@
 ### DATE: 22/4/24                                                                      
 ### REGISTER NUMBER : 212221040071
 ### AIM: 
-To write a program to train the classifier for diabetes prediction.
+To write a program to train the classifier for Diabetes.
 ###  Algorithm:
 
+Step 1: Import packages 
+
+Step 2: Get the data 
+
+Step 3: Split the data 
+
+Step 4: Scale the data
+
+Step 5: Instantiate model 
+
+Step 6: Create a function for gradio 
+
+Step 7: Print Result.
 ### Program:
 
 ```py
@@ -69,7 +82,14 @@ app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','num
 app.launch(share=True)
 ```
 ### Output:
+1.Dataset
+![WhatsApp Image 2024-04-25 at 09 23 58_77b41ef5](https://github.com/kannan0071/AI_Lab_2023-24/assets/119641638/902fe083-c720-44c7-9118-d38f78aed76e)
 
+2.Accuracy
+![WhatsApp Image 2024-04-25 at 09 24 12_1d8641b3](https://github.com/kannan0071/AI_Lab_2023-24/assets/119641638/c3831e9b-d4ff-4f4a-877c-df8603faed09)
+
+3.Result
+![WhatsApp Image 2024-04-25 at 09 23 34_e1841a5d](https://github.com/kannan0071/AI_Lab_2023-24/assets/119641638/d376bb90-777a-4780-87e7-51168b7111a2)
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
